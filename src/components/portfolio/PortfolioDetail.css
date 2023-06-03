@@ -1,0 +1,26 @@
+.detailName {
+    font-weight: 900;
+    margin-top: 6%;
+    margin-left: 20%;
+}
+
+tr{
+    margin: -200%;
+}
+
+.detailInfo {
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+    margin-left: 20%;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.detailView {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.detail_answer p {
+    margin-bottom: 1.5px;
+}

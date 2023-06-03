@@ -1,0 +1,164 @@
+div {
+    box-sizing: border-box;
+}
+
+.container-box2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top:0px;
+    left:0px;
+
+    padding: 0px;
+    z-index: 2;
+}
+
+.white-bg {
+    width: 70%;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    height: 85vh;
+    overflow-y: auto;
+}
+
+.x-btn{
+  font-size: 15px;
+  height: 30px;
+  border-radius: 3px;
+  border:1px solid gray;
+  margin-left: 18%;
+  position: fixed;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #eaeaea;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.section_profile {
+    height: 350px;
+}
+
+.title_area {
+    border-bottom: 1px solid black;
+    font-size: 30px;
+
+}
+
+.main_area {
+    padding-top: 50px;
+    height: 250px;
+}
+
+.img_area {
+    width: 14%;
+    float: left;
+    margin-right: 40px;
+}
+
+.profile_img {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+}
+
+.info_area {
+    float: left;
+}
+
+.dashborad {
+    margin-top: 40px;
+    width: 100%;
+    height: 124px;
+    background-color: #f7f7f7;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+
+.dashborad ul {
+    list-style: none;
+}
+
+.dashborad ul li {
+    padding-top: 20px;
+    width: 20%;
+    float: left;
+}
+
+.dashborad ul li p {
+    padding: 12px 0px;
+    margin-bottom: 30px;
+    border-right: 1px solid #eaeaea;
+}
+
+.first {
+    background-color: lightgray;
+}
+
+.first thead tr th {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.first tr td {
+    padding: 10px 20px 15px 20px;
+    border-right: 1px solid gray;
+    border-bottom: 1rem solid gray;
+}
+
+
+.part_table th {
+    color: #444;
+    background: #f7f7f7;
+    padding: 18px 10px;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.part_table td {
+    border-right: 1px solid #eaeaea;
+    padding: 22px 10px;
+}
+
+.section_part {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.section_part .part_table {
+    width: 100%;
+    border-top: 2px solid #666;
+}
+
+.section_part .part_table2 {
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+}
+
+.section_part .part_table .my_letter {
+    padding: 25px 30px 28px 30px;
+}
+
+.section_part .title_part .title_sub {
+    font-size: 16px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+@media screen and (max-width : 1200px){
+    .white-bg{
+        width: 100%;
+        margin: 0px;
+    }
+}
